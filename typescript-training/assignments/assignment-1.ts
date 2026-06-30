@@ -89,4 +89,4 @@ console.log(`Person's birthplace:"${birthplace}"`)
 // 20.
 // Distance between two cities: 200.5 --> -->
 let distance:number=200.5
-console.log(`Distance between two cities:${distance}`)
+console.log(`Distance between two cities: ${distance}`)
