@@ -97,3 +97,15 @@ do {
     j = j+1 
 }while(j <=5)
 
+
+let balance:number[]=[-2,-4]
+let totalDebit: number = 0
+
+for(let i = 0;i<balance.length;i++){
+    totalDebit =  totalDebit - balance[0]
+    console.log(totalDebit)
+
+}
+
+// console.log(totalDebit)
+// console.log("######")

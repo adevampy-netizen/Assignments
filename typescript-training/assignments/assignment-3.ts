@@ -11,12 +11,13 @@ let sumofmarks: number = 0
 
 
 for (let i =0; i<studentMarks.length; i++){
-     updatedMarks[i] = studentMarks[i] + 10; // u + = s[i]
+     updatedMarks[i] = studentMarks[i]! + 10; // u + = s[i]
+     
 }
 
 
 for (let i = 0; i<updatedMarks.length;i++){
-    sumofmarks = updatedMarks[i] + sumofmarks
+    sumofmarks = updatedMarks[i] !+ sumofmarks
 }
 
 console.log(sumofmarks)

@@ -55,12 +55,16 @@
 // console.log(stockDetails.size)
 // console.log(stockDetails)
 
-let mapDetails= new Map()
-mapDetails.set("Item", "pen")
-mapDetails.set("price",500)
-mapDetails.set("Item", "pencil")
-mapDetails.set("price",600)
+// let mapDetails= new Map()
+// mapDetails.set("Item", "pen")
+// mapDetails.set("price",500)
+// mapDetails.set("Item", "pencil")
+// mapDetails.set("price",600)
 
-console.log(mapDetails)
-console.log(mapDetails.size)
+// console.log(mapDetails)
+// console.log(mapDetails.size)
+
+
+
+
 
