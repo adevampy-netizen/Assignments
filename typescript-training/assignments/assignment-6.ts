@@ -1,6 +1,6 @@
 // prime check
 
-let num: number = 0.1
+let num: number = 9
 let isprime: boolean = true
 
 if(num <=1){

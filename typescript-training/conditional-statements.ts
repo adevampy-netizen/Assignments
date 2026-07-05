@@ -10,20 +10,23 @@
 
 // 1) if
 // 1.1) if ...else
-// 2) if ...else if ...else     --> multiple else if conditions  
-// 3) if {if else } else   --> nested if 
+// 2) if ...else if ...else             --> multiple "else if" conditions  
+// 3) if {if else } else        --> nested if 
+// 3.1) if ...else if{ if else} --> nested if
 // 4) switch ...case
 // 5) Ternary operator (condition ? value1 : value2)
 
 //if ... else
-let age: number = 20;
-if (age >=20){
+let age: number = 4;
+if (age >= 18) {
     console.log("Eligible to vote")
 } else {
     console.log("Not eligible to vote")
-    }
+    // here also can add 'if condition' when needed
+    // else block executes when all previous conditions are FALSE 
+}
 
-
+/*
 // if ... else if ... else
 let age1: number = 5
 
@@ -66,7 +69,7 @@ switch(browserName) {
     }
 }
 
-    
+   */
 
 
 

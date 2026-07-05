@@ -45,8 +45,8 @@ for (let i = 0; i < bankTransaction.length; i++) {
         debitAmt[d_index] = bankTransaction[i]
         d_index = d_index + 1
         if (bankTransaction[i] < -10000)
-        neg_suspiciousCount = neg_suspiciousCount + 1
-    } 
+            neg_suspiciousCount = neg_suspiciousCount + 1
+    }
 }
 
 console.log(`No of credit amount: ${creditAmt}`)
