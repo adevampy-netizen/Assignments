@@ -159,16 +159,16 @@
 // console.log(result)
 
 
-let dress : string[]=["tshrit","pant","duppatta","sudi","shirt"]
-let reversed:string[]=[]
+// let dress : string[]=["tshrit","pant","duppatta","sudi","shirt"]
+// let reversed:string[]=[]
 
-for(let i=dress.length-1;i>=0;i--){
-    console.log(dress[i])
-   // reversed.push(dress[i]!)
-   reversed[i]=reversed[i]+dress[i]!
-}
-console.log(dress)
-console.log(reversed)
+// for(let i=dress.length-1;i>=0;i--){
+//     console.log(dress[i])
+//    // reversed.push(dress[i]!)
+//    reversed[i]=reversed[i]+dress[i]!
+// }
+// console.log(dress)
+// console.log(reversed)
 // console.log(dress.reverse())
 // dress.pop()
 // console.log(dress)
@@ -186,5 +186,22 @@ console.log(reversed)
 // for(let i=word.length;i>=0;i--)
 // {
 //    console.log(word.charAt(i))
+//reword=reword+word.charAt(i)
 // }
 // //console.log(reword)
+
+// let numbers : number[]=[70,45,60,10]
+// let largest:number=numbers[0]!
+
+// for(let i=i;i<=numbers.length-1;i++){
+//     if(numbers[i]!>largest){
+//      largest=numbers[i]!
+//     }
+// }
+// console.log(largest)
+
+let numbers: number[]=[80,90,30,60,100]
+numbers.sort((a,b)=>b-a)
+console.log(numbers)
+
+console.log(`The second largest number is: ${numbers[1]}`)

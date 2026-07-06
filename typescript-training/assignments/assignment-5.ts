@@ -1,5 +1,5 @@
-let empValues: Map<string, number> = new Map(); //duplicate keys are not allowed in the map.
 
+let empValues: Map<string, number> = new Map(); //duplicate keys are not allowed in the map.
 function hike(name: string, salary: number, exp: number, rating: number): void {
     let bonus: number = 0
     let varPay: number = 0
