@@ -1,0 +1,15 @@
+let originalstring :string=" Name : Harsha | age : four4 "
+let uppercasestring : string = originalstring.toUpperCase()
+console.log(uppercasestring)
+let lowercasestring : string = originalstring.toLowerCase()
+console.log(lowercasestring)
+let esubstring : string = originalstring.substring(8)
+console.log(esubstring)
+let splittedstring : string []= originalstring.split("|")
+console.log(splittedstring)
+let splittedstringc : string []= originalstring.split(":")
+console.log(splittedstringc)
+let splittedstrings : string []= originalstring.split(" ")
+console.log(splittedstrings)
+let name:string= splittedstrings[3]
+console.log(name)

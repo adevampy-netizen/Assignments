@@ -164,8 +164,8 @@
 
 // for(let i=dress.length-1;i>=0;i--){
 //     console.log(dress[i])
-//    // reversed.push(dress[i]!)
-//    reversed[i]=reversed[i]+dress[i]!
+//    reversed.push(dress[i]!)
+//    
 // }
 // console.log(dress)
 // console.log(reversed)
